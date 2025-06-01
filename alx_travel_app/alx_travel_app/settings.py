@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'listings',
 ]
+AUTH_USER_MODEL="models.User"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
